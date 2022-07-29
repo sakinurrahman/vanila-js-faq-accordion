@@ -1,0 +1,367 @@
+<div id="shopify-section-template--16139355783381__16494647261b43ff83" class="shopify-section"><div class="page-width">
+
+<div id="faqs" class="nfaq_container">
+
+  <div class="nfaq_Head">
+    <h1 style="font-family: &quot;Libre Caslon Text Bold&quot;, Bangla411, sans-serif;">Frequently Asked Questions</h1>
+  </div>
+  
+  <div class="nfaq_content">
+    
+    <div class="nfaq_l">
+      
+      
+      
+        
+      <button class="naccordion">What is Mystery GlamBox?</button>
+      <div class="npanel">
+        <p>GlamBox is an exciting way to unbox quality beauty products at an unbelievably low cost and get them delivered directly to your home.</p>
+      </div>
+      
+      
+        
+      <button class="naccordion">Are all your branded products authentic?</button>
+      <div class="npanel">
+        <p>Yes, we buy directly from the brands, vendors and wholesalers. Additionally, in case of rarity we buy directly from verified resellers and provide receipts for proof.</p>
+      </div>
+      
+      
+        
+      <button class="naccordion">How does GlamBox work?</button>
+      <div class="npanel">
+        <p>It's simple, you purchase the Mystery GlamBox and have it delivered to your door steps for an awesome reveal. All items in the box are licensed retail products sent to us from wholesale vendors and manufacturers that were overstocked or unsold. You will find something in each mystery box of value.</p>
+      </div>
+      
+      
+      
+    </div>
+    <div class="nfaq_r">
+      
+      
+      
+      
+      <button class="naccordion">Is GlamBox fair?</button>
+      <div class="npanel">
+        <p>Of course, it's fair! We use a randomizing algorithm that cannot be manipulated or predicted by anyone (including us). Thus, what you receive will be completely random and fair.</p>
+      </div>
+      
+      
+      
+      <button class="naccordion">How long till I get the my mystery box?</button>
+      <div class="npanel">
+        <p>After verifying your details, we will deliver the items at the address provided. Users normally get their items within 6-9 days, but it may take up to 15 days depending on your location.</p>
+      </div>
+      
+      
+      
+      <button class="naccordion">Do you offer refunds?</button>
+      <div class="npanel">
+        <p>No, it’s a Mystery Box.</p>
+      </div>
+      
+      
+      
+    </div>
+    
+  </div>
+  
+  <div class="nfaq_text">
+    
+  </div>
+  
+  <div class="nfaq_btn">
+    <a href="/products/glambox">Try now!</a>
+<!--     <a class= href="">View Mystery Box</a> -->
+  </div>
+
+</div>
+
+</div>
+
+<script>
+  var acc = document.getElementsByClassName("naccordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
+
+
+
+
+<style>
+  
+  .nfaq_container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .nfaq_Head {
+    width: 50ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+  .nfaq_Head h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin:0;
+  }
+  .nfaq_content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 85px;
+  }
+  .nfaq_l {
+    width: 49.5%
+  }
+  .nfaq_r {
+    width: 49.5%
+  }
+
+  .naccordion {
+    background-color: #BBC4E34d;
+    cursor: pointer;
+/*     padding: 18px; */
+    padding: 32px 44px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: -0.04em;
+  }
+  .naccordion.active {
+	border-radius: 20px 20px 0 0;
+  }
+  
+  .naccordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: left; 
+    font-size: 44px;
+    margin-right: 40px;
+  }
+
+  .active:after {
+    content: "\2212";
+    margin-right: 37px;
+  }
+
+  .npanel {
+/*     padding: 0 18px; */
+        padding: 0 47px 0 106px;
+    background-color: #BBC4E34d;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 17px;
+    border-radius: 0 0 20px 20px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+  }
+  .npanel:last-child {
+  	margin-bottom:0;
+  }
+  .npanel p {
+    margin: 0;
+    margin-bottom: 44px;
+
+  }
+  .nfaq_text {
+    margin-bottom: 67px;
+  }
+  .nfaq_text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    max-width: 53ch;
+    margin: 0 auto;
+  }
+  .nfaq_btn {
+    text-align: center;
+    
+  }
+  .nfaq_btn a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+    background: #0A112B;
+    mix-blend-mode: normal;
+    border-radius: 13px;
+    padding: 20px 120px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width:768px){
+
+    .nfaq_container {
+      padding-top: 42px;
+      padding-bottom: 42px;
+    }
+    .nfaq_Head {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 48px;
+    }
+    .nfaq_Head h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      letter-spacing: -0.04em;
+      margin:0;
+    }
+    .nfaq_content {
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+    .nfaq_l {
+      width: 100%
+    }
+    .nfaq_r {
+      width: 100%
+    }
+
+    .naccordion {
+      background-color: #BBC4E34d;
+      cursor: pointer;
+      /*     padding: 18px; */
+      padding: 14px 10px;
+      width: 100%;
+      border: none;
+      border-radius: 11.9459px;
+      text-align: left;
+      outline: none;
+      transition: 0.4s;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 160%;
+      letter-spacing: -0.04em;
+
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .naccordion.active {
+      border-radius: 11.9459px 11.9459px 0 0;
+    }
+
+    .naccordion:after {
+      content: '\002B';
+      font-weight: bold;
+      float: left; 
+      font-size: 25px;
+      margin-right: 0;
+      width: 15%;
+      text-align: center;
+    }
+
+    .active:after {
+      content: "\2212";     
+      margin-right: 0;
+    }
+
+    .npanel {
+      /*     padding: 0 18px; */
+      padding: 0 10px 0 58px;
+      background-color: #BBC4E34d;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      margin-bottom: 17px;
+      border-radius: 0 0 11.9459px 11.9459px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 160%;
+    }
+    .npanel:last-child {
+      margin-bottom: 17px;
+    }
+    .npanel p {
+      margin: 0;
+      margin-bottom: 15px;
+
+    }
+    .nfaq_btn {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .nfaq_btn a {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16.5934px;
+      line-height: 20px;
+      letter-spacing: -0.04em;
+      color: #FFFFFF;
+
+      background: #0A112B;
+      mix-blend-mode: normal;
+      border-radius: 10.7857px;
+      padding: 20px;
+    }
+
+
+
+
+
+
+
+  }
+</style></div>
+
+
+
+{% schema %}
+  {
+    "name": "Faq",
+    "settings": [],
+    "presets": [
+      {
+        "name": "FAQ",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
